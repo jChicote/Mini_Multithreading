@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &417367452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,9 +384,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e547909f3c1b8254b919aee5e6579df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agentCount: 1000
+  agentCount: 10000
   agents: []
   agentPrefab: {fileID: 8203976054133684421, guid: eb3b3ba173ebd55448aa0a5e6d20d35b, type: 3}
+  agentMesh: {fileID: 0}
+  agentMaterial: {fileID: 0}
 --- !u!4 &1006795542
 Transform:
   m_ObjectHideFlags: 0
